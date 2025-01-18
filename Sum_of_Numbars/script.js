@@ -4,6 +4,9 @@
 //   example:                   
 //  For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3. 
 
+// Hints::   Arithmetic (1)Operators (2)Rest Operators (3)forEach()
+
+
 
 
 function add(num1, num2) {
@@ -15,7 +18,12 @@ console.log(result); // Outputs: 3
 
 // 3 Write a function that returns the sum of all numbers in an array.
 function addAll(...args) {
-   return args.reduce((a,b)=> a+b , 0)
+   let total = 0;
+   args.forEach((preEle)=>{
+    total += preEle;
+
+   })
+   return total;
 
 }
 
