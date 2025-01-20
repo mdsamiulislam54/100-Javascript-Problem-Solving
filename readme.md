@@ -11,3 +11,14 @@
 # For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3. 
 
 # Hints::   Arithmetic (1)Operators (2)Rest Operators (3)forEach()
+
+# .....................................................
+
+# Problem-3....
+
+# Give a rectangular matrix of characters, add a border of asterisks(*) to it.
+# Example::
+# picture = [“abc”, “ded”]
+# output:::
+#  addBorder(picture) = [“*****”, “*abc*”, “*ded*”, “*****”]
+
