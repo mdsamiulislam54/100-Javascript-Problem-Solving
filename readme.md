@@ -32,6 +32,14 @@
 # You can remove 3 from the array to get a strictly increasing sequence [1, 2]. Alternately, you can remove 2 to get the strictly increasing sequence [1, 3]
 
 # .....................................................
+
 # Problem-5........
 
+# Sum all the prime numbers up to and including the provided number.
+# A prime number is defined as a number greater than one and having only two divisors, one and itself. For example, 2 is a prime number because it's only divisible by one and two.
+
+# The provided number may not be a prime
+# Example :
+# sumAllPrime(10) should return 17
+# sumAllPrime(977) should return 73156
 
