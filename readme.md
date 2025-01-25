@@ -51,3 +51,6 @@
 # For domains = [“en.wiki.org”, “codefighters.com”, “happy.net”, “code.info”], 
 # the output should be domainType(domains) = [“commercial”, “organization”, “network”,]
 
+# Problem -7........
+#  Write a function that takes a list of integers and returns the sum of the squares of th
+# Reactangle pattern design.......
