@@ -1,56 +1,137 @@
-# Problem-1....
-# Give an array of integers, replace all the occurrences of elementToReplace with subtractionElem. 
-#   example:   For inputArray = [1, 2, 1], elementToReplace = 1 and subtractionElem = 3, the output should be arrayReplace(inputArray, elementToReplace, substrationElem) = [3, 2, 3].
+# Algorithm Problems
 
-# .....................................................
+This repository contains a collection of algorithm problems designed to enhance your problem-solving skills using JavaScript. Each problem includes a detailed description and example inputs/outputs.
+## How to Use
+- Clone this repository.
+- Solve the problems using your preferred IDE.
+- Run test cases to validate solutions.
 
-# Problem-2....
-# 1 Write a function that returns the sum of two numbers.
-# 2 Write a function that returns the sum of all numbers regardless of # of params.
-# example::
-# For param1 = 1 and param2 = 2, the output should be add(param1, param2) = 3. 
+Happy Coding! 🚀
+---
 
-# Hints::   Arithmetic (1)Operators (2)Rest Operators (3)forEach()
+## Problem 1: Array Replacement
 
-# .....................................................
+### Description:  
+Given an array of integers, replace all occurrences of a specific element (`elementToReplace`) with another element (`subtractionElem`).
 
-# Problem-3....
+### Example:  
+```js
+inputArray = [1, 2, 1];
+elementToReplace = 1;
+subtractionElem = 3;
+Output: [3, 2, 3]
+```
 
-# Give a rectangular matrix of characters, add a border of asterisks(*) to it.
-# Example::
-# picture = [“abc”, “ded”]
-# output:::
-#  addBorder(picture) = [“*****”, “*abc*”, “*ded*”, “*****”]
-# .....................................................
+---
 
-# Problem-4........
-# Almost Increasing Sequence
-# Give a sequence of integer to an array, determine whether it is possible to obtain a strictly increasing sequence by removing not more than one element from the array.
-# Example::
-# For sequence = [ 1, 3, 2, 1], the output should be almostincreasingSequence(sequence) = false;
-# For sequence = [ 1, 3, 5, 7 ], the output should be almostincreasingSequence(sequence) = true.
-# You can remove 3 from the array to get a strictly increasing sequence [1, 2]. Alternately, you can remove 2 to get the strictly increasing sequence [1, 3]
+## Problem 2: Sum of Numbers
 
-# .....................................................
+1. **Sum of Two Numbers:**  
+   Write a function that returns the sum of two numbers.  
+   - **Example:**  
+     ```js
+     param1 = 1, param2 = 2
+     Output: 3
+     ```
 
-# Problem-5........
+2. **Sum of All Numbers:**  
+   Write a function that returns the sum of all numbers regardless of the number of parameters.  
+   - **Hints:**  
+     - Arithmetic Operators  
+     - Rest Operators  
+     - `forEach()`
 
-# Sum all the prime numbers up to and including the provided number.
-# A prime number is defined as a number greater than one and having only two divisors, one and itself. For example, 2 is a prime number because it's only divisible by one and two.
+---
 
-# The provided number may not be a prime
-# Example :
-# sumAllPrime(10) should return 17
-# sumAllPrime(977) should return 73156
+## Problem 3: Add Border to Matrix
 
-# .....................................................
+### Description:  
+Given a rectangular matrix of characters, add a border of asterisks (`*`) around it.
 
-# Problem-6........
-#  GoDaddy makes a lot of difference top-level domains available to its customers. A top level Domain is one that goes directly after the last dot (“.”) in the domain name for .com example.com, To help the users choose from available domains. GoDaddy is introducing a new feature that shows the type of the chosen top-level domain. You have to implement this feature. To begin with you want to write a function that labels the domains as “commercial”. “organization”,
-#  Example:::::
-# For domains = [“en.wiki.org”, “codefighters.com”, “happy.net”, “code.info”], 
-# the output should be domainType(domains) = [“commercial”, “organization”, “network”,]
+### Example:  
+```js
+picture = ["abc", "ded"];
+Output: ["*****", "*abc*", "*ded*", "*****"]
+```
 
-# Problem -7........
-#  Write a function that takes a list of integers and returns the sum of the squares of th
-# Reactangle pattern design.......
+---
+
+## Problem 4: Almost Increasing Sequence
+
+### Description:  
+Given a sequence of integers in an array, determine whether it is possible to obtain a strictly increasing sequence by removing no more than one element.
+
+### Example:  
+```js
+sequence = [1, 3, 2, 1];
+Output: false
+
+sequence = [1, 3, 5, 7];
+Output: true
+```
+
+---
+
+## Problem 5: Sum All Prime Numbers
+
+### Description:  
+Sum all the prime numbers up to and including the provided number.  
+- A prime number is greater than one and has only two divisors: one and itself.
+
+### Example:  
+```js
+sumAllPrime(10) should return 17
+sumAllPrime(977) should return 73156
+```
+
+---
+
+## Problem 6: Domain Type Identifier
+
+### Description:  
+GoDaddy offers multiple top-level domains (TLDs). Write a function to label the domain types as follows:
+- `.com` → "commercial"  
+- `.org` → "organization"  
+- `.net` → "network"  
+- `.info` → "information"
+
+### Example:  
+```js
+domains = ["en.wiki.org", "codefighters.com", "happy.net", "code.info"];
+Output: ["organization", "commercial", "network", "information"]
+```
+
+---
+
+## Problem 7: Sum of Squares
+
+### Description:  
+Write a function that takes a list of integers and returns the sum of their squares.
+
+### Example:  
+```js
+input = [1, 2, 3];
+Output: 14   // (1² + 2² + 3² = 1 + 4 + 9 = 14)
+```
+
+---
+
+## Problem 8: Two Sum
+
+### Title: Two Sum  
+### Description:  
+Given an array of integers (`nums`) and an integer (`target`), return the indices of the two numbers such that they add up to the target.
+- Assume each input would have exactly one solution.  
+- You may not use the same element twice.  
+- Return the indices in any order.
+
+### Example:  
+```js
+nums = [2, 7, 11, 15];
+target = 9;
+Output: [0, 1]   // nums[0] + nums[1] = 2 + 7 = 9
+```
+
+---
+
+
